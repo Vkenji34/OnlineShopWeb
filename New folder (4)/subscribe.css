@@ -1,0 +1,373 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+a{
+    color: black;     
+}
+
+.menu{
+    padding: 25px;
+    gap: 1em;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    
+}
+
+body{
+    background-color: #F6E2E2;
+    
+}
+
+.menu a{
+    
+    text-transform: capitalize;
+    color: black;
+    font-weight: 300;
+    color: black;
+    display: block;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    
+}
+.menu a:hover{
+    color: grey;
+    padding-left: 15px;
+    
+}
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10%;
+}
+
+.loginpage{
+    width: 100%;
+    padding-top: 5%;
+}
+
+.title{
+    font-family: sans-serif;
+    position: absolute;
+    font-size: 30px;
+    top: 10%;
+    text-align: center;
+    color:black;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.formbox{
+display: flex;
+position: absolute;
+flex-direction: column;
+align-items: center;
+width: 100%;
+top: 30%;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.input{
+    background-color: #fff;
+    height: 40px;
+    margin-top: 1.2%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #212121;
+    text-align: left;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 30px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    width: 50%;
+    border: #212121 2px solid;
+}
+
+.genderselect{
+    width: 50%;
+    background-color: white;
+    height: 50px;
+    margin-top: 2%;
+    font-size: 20px;
+    color: #212121;
+    border: 2px solid #212121;
+    text-align: left;
+    padding: 10px;
+    padding-left: 8px;
+    border-radius: 30px;
+    font-weight: 300;
+}
+
+.genderselect select{
+    width: 100%;
+    min-height: 35px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    opacity: 0.55;
+}
+
+.name{
+    background: none;
+    color: #212121;
+    padding: 0;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.email{
+    background: none;
+    color: #212121;
+    padding: 0;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.phone{
+    background: none;
+    color: #212121;
+    padding: 0;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.password{
+    background: none;
+    color: #212121;
+    padding: 0;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reg-button{
+    top: 70%;
+    position: absolute;
+    text-align: center;
+    background-color: red;
+    width: 20%;
+    padding: 15px;
+    border-radius: 25px;
+    font-family: sans-serif;
+    color: #212121;
+    font-size: 15px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.reg-button:hover{
+    color: white;
+
+}
+
+.loginmessage{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 35%;
+    top: 80%;
+    color: #212121;
+
+}
+
+.loginmessage2{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 55%;
+    top: 80%;
+    color: #212121;
+}
+
+.loginmessage2:hover {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 55%;
+    top: 80%;
+    color: cornflowerblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.footer-container{
+    background-color: #212121;
+    padding-bottom: 6rem;
+    padding-top: 4rem;
+    margin-top: 40%;
+}
+.footer{
+    width: 100%;
+    height: 30vh;
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.footer h2{
+    color: #fff;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.footer-heading h2{
+    margin-bottom: 2rem;
+
+}
+
+.footer-heading a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover{
+    color: aqua;
+    transition: 0.3s ease-out;
+}
+
+.footer-email-form h2{
+    margin-bottom: 2rem;
+}
+
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+#footer-email::placeholder{
+    color: gray;
+}
+
+#footer-email-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: blue;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+#footer-email-btn:hover{
+    cursor: pointer;
+    background-color: cyan;
+    transition: all 0.4s ease-out;
+}
+
+@media screen and (max-width: 800px){
+    .nav{
+       float: right;
+       display: block;
+       justify-content: space-between;
+    }
+    .menu a{
+      font-size: 10px;
+    }
+    .tulisan{
+      font-size: 20px;
+    }
+   .loginpage h2{
+    font-size: 30px;
+   }
+   .formbox{
+    width: 100%;
+    height: 30%;
+    top: 25%;
+   }
+   .reg-button{
+    top: 55%;
+    margin-bottom: 10%;
+   }
+   .footer{
+    margin-top: 10%;
+   }
+   .footer-container{
+    margin-top: 60%;
+   }
+   .loginmessage{
+    margin-left: 25%;
+   }
+   .loginmessage2{
+    margin-left: 55%;
+   }
+  }
+  @media screen and (max-width: 800px) {
+      .nav.responsive{
+          position: relative;
+      }
+      .nav.responsive{
+          position: absolute;
+          right: 0;
+          top: 0;
+      }
+      .nav.responsive a{
+          float: none;
+          display: block;
+          text-align: left;
+          padding: 0;
+      }
+  }
